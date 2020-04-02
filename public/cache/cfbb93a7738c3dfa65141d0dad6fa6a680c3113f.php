@@ -1,0 +1,1 @@
+<?php echo $__env->yieldContent('content'); ?><?php /**PATH C:\Users\Brandon\Documents\GitHub\ShCommunity\resources\views/layouts/cms/body.blade.php ENDPATH**/ ?>

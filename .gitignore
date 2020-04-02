@@ -1,0 +1,7 @@
+.env
+.idea/
+.vscode/
+node_modules/
+vendor/
+phpDocumentor.phar
+phpcs.xml

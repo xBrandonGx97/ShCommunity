@@ -1,0 +1,7 @@
+[02-Apr-2020 18:38:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Brandon\Documents\GitHub\ShCommunity\app\classes\Utils\Session.php:21) in C:\Users\Brandon\Documents\GitHub\ShCommunity\framework\helpers\redirect.php on line 8
+[02-Apr-2020 18:38:48 America/Chicago] PHP Stack trace:
+[02-Apr-2020 18:38:48 America/Chicago] PHP   1. {main}() C:\Users\Brandon\Documents\GitHub\ShCommunity\public\index.php:0
+[02-Apr-2020 18:38:48 America/Chicago] PHP   2. App\Bootstrap->dispatch() C:\Users\Brandon\Documents\GitHub\ShCommunity\public\index.php:4
+[02-Apr-2020 18:38:48 America/Chicago] PHP   3. abort() C:\Users\Brandon\Documents\GitHub\ShCommunity\app\bootstrap.php:100
+[02-Apr-2020 18:38:48 America/Chicago] PHP   4. redirect() C:\Users\Brandon\Documents\GitHub\ShCommunity\framework\helpers\abort.php:21
+[02-Apr-2020 18:38:48 America/Chicago] PHP   5. header() C:\Users\Brandon\Documents\GitHub\ShCommunity\framework\helpers\redirect.php:8
