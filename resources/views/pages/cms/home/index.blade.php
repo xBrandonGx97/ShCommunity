@@ -3,5 +3,5 @@
 @section('title', 'Home')
 @section('zone', 'CMS')
 @section('content')
-content here
+<button class="btn btn-primary">hello</button>
 @endsection

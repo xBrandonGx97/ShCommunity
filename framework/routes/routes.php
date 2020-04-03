@@ -2,18 +2,14 @@
 use Framework\Core\Route;
 
 $dispatcher = FastRoute\simpleDispatcher(function (FastRoute\RouteCollector $r) {
-    $session = new Classes\Utils\Session;
-    $userClass = new Classes\Utils\User($session);
-    $home = new App\Controllers\Home($userClass);
+    $home = new App\Controllers\Home();
 
     // Default Route
     $r->addRoute('GET', '/', [($home), 'index']);
 
     // Errors
     $r->addGroup('/errors', function (FastRoute\RouteCollector $r) {
-        $session = new Classes\Utils\Session;
-        $userClass = new Classes\Utils\User($session);
-        $errors = new App\Controllers\Errors($userClass);
+        $errors = new App\Controllers\Errors();
 
         $r->addRoute('GET', '/301', [($errors), 'error301']);
         $r->addRoute('GET', '/307', [($errors), 'error307']);

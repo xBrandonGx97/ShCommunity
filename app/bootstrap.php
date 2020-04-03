@@ -5,7 +5,6 @@ namespace App;
 use Compiler\Compiler;
 use Dotenv\Dotenv;
 use Framework\Core\Loader;
-use Classes\DB\MSSQL as DB;
 use Classes\Security\Security;
 use Classes\Utils as Utils;
 use Classes\Exception\Exception;
@@ -70,8 +69,6 @@ class Bootstrap
             $this->session = new Utils\Session;
             // Init PHP
             $this->php = new Utils\PHP;
-            // Init DB
-            $this->database = new DB;
             // Init Data
             $this->data = new Utils\Data;
             // Load Langs
@@ -171,7 +168,6 @@ class Bootstrap
     {
         define('APP', $this->loader->config('app'));
         define('CONFIG', $this->loader->config('config'));
-        define('DB', $this->loader->config('database'));
         define('MAIL', $this->loader->config('mail'));
     }
 

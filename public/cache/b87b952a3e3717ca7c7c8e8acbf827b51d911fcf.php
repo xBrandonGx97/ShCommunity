@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="author" content="{{APP['author']}}">
+<meta name="author" content="<?php echo e(APP['author']); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Favicon -->
 <link href="/resources/themes/core/images/icons/favicon.png" rel="icon" type="image/x-icon">
@@ -12,4 +12,5 @@
 <link rel="stylesheet" type="text/css" href="/resources/themes/core/fonts/font-awesome/v5.6.1/css/all.css">
 <!-- Theme Css -->
 <link rel="stylesheet" type="text/css" href="/resources/themes/core/css/style.css">
-<title>@yield('title', 'undefined') - {{APP['title']}}</title>
+<title><?php echo $__env->yieldContent('title', 'undefined'); ?> - <?php echo e(APP['title']); ?></title>
+<?php /**PATH C:\Users\Alexandre\ShCommunity\resources\views/layouts/cms/head.blade.php ENDPATH**/ ?>

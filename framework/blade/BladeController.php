@@ -19,7 +19,6 @@ class BladeController
         }
         $this->session = new Utils\Session;
         $this->auth = new Utils\Auth($this->session);
-        $this->logSys = new LogSys;
     }
 
     public function loadDirectives()

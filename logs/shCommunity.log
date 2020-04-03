@@ -5,3 +5,204 @@
 [02-Apr-2020 18:38:48 America/Chicago] PHP   3. abort() C:\Users\Brandon\Documents\GitHub\ShCommunity\app\bootstrap.php:100
 [02-Apr-2020 18:38:48 America/Chicago] PHP   4. redirect() C:\Users\Brandon\Documents\GitHub\ShCommunity\framework\helpers\abort.php:21
 [02-Apr-2020 18:38:48 America/Chicago] PHP   5. header() C:\Users\Brandon\Documents\GitHub\ShCommunity\framework\helpers\redirect.php:8
+[02-Apr-2020 19:03:15 America/Chicago] PHP Warning:  include(C:\Users\Alexandre\ShCommunity\app\classes\DB\MSSQL.php): failed to open stream: No such file or directory in C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php on line 444
+[02-Apr-2020 19:03:15 America/Chicago] PHP Stack trace:
+[02-Apr-2020 19:03:16 America/Chicago] PHP   1. {main}() C:\Users\Alexandre\ShCommunity\public\index.php:0
+[02-Apr-2020 19:03:16 America/Chicago] PHP   2. App\Bootstrap->__construct() C:\Users\Alexandre\ShCommunity\public\index.php:3
+[02-Apr-2020 19:03:16 America/Chicago] PHP   3. App\Bootstrap->init() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:22
+[02-Apr-2020 19:03:16 America/Chicago] PHP   4. spl_autoload_call() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:74
+[02-Apr-2020 19:03:16 America/Chicago] PHP   5. Composer\Autoload\ClassLoader->loadClass() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:74
+[02-Apr-2020 19:03:16 America/Chicago] PHP   6. Composer\Autoload\includeFile() C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php:322
+[02-Apr-2020 19:03:16 America/Chicago] PHP Warning:  include(): Failed opening 'C:\Users\Alexandre\ShCommunity\vendor\composer/../../app/classes/DB/MSSQL.php' for inclusion (include_path='C:\Users\Alexandre\ShCommunity\framework\libraries\HTMLPurifier;.;C:\php\pear') in C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php on line 444
+[02-Apr-2020 19:03:16 America/Chicago] PHP Stack trace:
+[02-Apr-2020 19:03:16 America/Chicago] PHP   1. {main}() C:\Users\Alexandre\ShCommunity\public\index.php:0
+[02-Apr-2020 19:03:16 America/Chicago] PHP   2. App\Bootstrap->__construct() C:\Users\Alexandre\ShCommunity\public\index.php:3
+[02-Apr-2020 19:03:16 America/Chicago] PHP   3. App\Bootstrap->init() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:22
+[02-Apr-2020 19:03:16 America/Chicago] PHP   4. spl_autoload_call() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:74
+[02-Apr-2020 19:03:16 America/Chicago] PHP   5. Composer\Autoload\ClassLoader->loadClass() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:74
+[02-Apr-2020 19:03:16 America/Chicago] PHP   6. Composer\Autoload\includeFile() C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php:322
+[02-Apr-2020 19:03:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:04:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:04:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:05:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:05:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:05:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:06:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:06:43 America/Chicago] PHP Warning:  include(C:\Users\Alexandre\ShCommunity\vendor\composer/../../app/classes/Utils/User.php): failed to open stream: No such file or directory in C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php on line 444
+[02-Apr-2020 19:06:43 America/Chicago] PHP Stack trace:
+[02-Apr-2020 19:06:43 America/Chicago] PHP   1. {main}() C:\Users\Alexandre\ShCommunity\public\index.php:0
+[02-Apr-2020 19:06:43 America/Chicago] PHP   2. App\Bootstrap->dispatch() C:\Users\Alexandre\ShCommunity\public\index.php:4
+[02-Apr-2020 19:06:43 America/Chicago] PHP   3. require_once() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:85
+[02-Apr-2020 19:06:43 America/Chicago] PHP   4. FastRoute\simpleDispatcher() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:29
+[02-Apr-2020 19:06:43 America/Chicago] PHP   5. App\Bootstrap->{closure:C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:4-29}() C:\Users\Alexandre\ShCommunity\vendor\nikic\fast-route\src\functions.php:32
+[02-Apr-2020 19:06:43 America/Chicago] PHP   6. spl_autoload_call() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:6
+[02-Apr-2020 19:06:43 America/Chicago] PHP   7. Composer\Autoload\ClassLoader->loadClass() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:6
+[02-Apr-2020 19:06:43 America/Chicago] PHP   8. Composer\Autoload\includeFile() C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php:322
+[02-Apr-2020 19:06:43 America/Chicago] PHP Warning:  include(): Failed opening 'C:\Users\Alexandre\ShCommunity\vendor\composer/../../app/classes/Utils/User.php' for inclusion (include_path='C:\Users\Alexandre\ShCommunity\framework\libraries\HTMLPurifier;.;C:\php\pear') in C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php on line 444
+[02-Apr-2020 19:06:43 America/Chicago] PHP Stack trace:
+[02-Apr-2020 19:06:43 America/Chicago] PHP   1. {main}() C:\Users\Alexandre\ShCommunity\public\index.php:0
+[02-Apr-2020 19:06:43 America/Chicago] PHP   2. App\Bootstrap->dispatch() C:\Users\Alexandre\ShCommunity\public\index.php:4
+[02-Apr-2020 19:06:43 America/Chicago] PHP   3. require_once() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:85
+[02-Apr-2020 19:06:43 America/Chicago] PHP   4. FastRoute\simpleDispatcher() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:29
+[02-Apr-2020 19:06:43 America/Chicago] PHP   5. App\Bootstrap->{closure:C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:4-29}() C:\Users\Alexandre\ShCommunity\vendor\nikic\fast-route\src\functions.php:32
+[02-Apr-2020 19:06:43 America/Chicago] PHP   6. spl_autoload_call() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:6
+[02-Apr-2020 19:06:43 America/Chicago] PHP   7. Composer\Autoload\ClassLoader->loadClass() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:6
+[02-Apr-2020 19:06:43 America/Chicago] PHP   8. Composer\Autoload\includeFile() C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php:322
+[02-Apr-2020 19:06:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:07:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:20:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:27:37 America/Chicago] PHP Notice:  Undefined variable: userClass in C:\Users\Alexandre\ShCommunity\framework\routes\routes.php on line 5
+[02-Apr-2020 19:27:37 America/Chicago] PHP Stack trace:
+[02-Apr-2020 19:27:37 America/Chicago] PHP   1. {main}() C:\Users\Alexandre\ShCommunity\public\index.php:0
+[02-Apr-2020 19:27:37 America/Chicago] PHP   2. App\Bootstrap->dispatch() C:\Users\Alexandre\ShCommunity\public\index.php:4
+[02-Apr-2020 19:27:37 America/Chicago] PHP   3. require_once() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:82
+[02-Apr-2020 19:27:37 America/Chicago] PHP   4. FastRoute\simpleDispatcher() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:27
+[02-Apr-2020 19:27:37 America/Chicago] PHP   5. App\Bootstrap->{closure:C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:4-27}() C:\Users\Alexandre\ShCommunity\vendor\nikic\fast-route\src\functions.php:32
+[02-Apr-2020 19:27:37 America/Chicago] PHP Warning:  include(C:\Users\Alexandre\ShCommunity\vendor\composer/../../app/classes/Utils/User.php): failed to open stream: No such file or directory in C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php on line 444
+[02-Apr-2020 19:27:37 America/Chicago] PHP Stack trace:
+[02-Apr-2020 19:27:37 America/Chicago] PHP   1. {main}() C:\Users\Alexandre\ShCommunity\public\index.php:0
+[02-Apr-2020 19:27:37 America/Chicago] PHP   2. App\Bootstrap->dispatch() C:\Users\Alexandre\ShCommunity\public\index.php:4
+[02-Apr-2020 19:27:37 America/Chicago] PHP   3. require_once() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:82
+[02-Apr-2020 19:27:37 America/Chicago] PHP   4. FastRoute\simpleDispatcher() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:27
+[02-Apr-2020 19:27:37 America/Chicago] PHP   5. App\Bootstrap->{closure:C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:4-27}() C:\Users\Alexandre\ShCommunity\vendor\nikic\fast-route\src\functions.php:32
+[02-Apr-2020 19:27:37 America/Chicago] PHP   6. FastRoute\RouteCollector->addGroup() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:26
+[02-Apr-2020 19:27:37 America/Chicago] PHP   7. App\Bootstrap->{closure:C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:11-26}() C:\Users\Alexandre\ShCommunity\vendor\nikic\fast-route\src\RouteCollector.php:51
+[02-Apr-2020 19:27:37 America/Chicago] PHP   8. spl_autoload_call() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:13
+[02-Apr-2020 19:27:37 America/Chicago] PHP   9. Composer\Autoload\ClassLoader->loadClass() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:13
+[02-Apr-2020 19:27:37 America/Chicago] PHP  10. Composer\Autoload\includeFile() C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php:322
+[02-Apr-2020 19:27:37 America/Chicago] PHP Warning:  include(): Failed opening 'C:\Users\Alexandre\ShCommunity\vendor\composer/../../app/classes/Utils/User.php' for inclusion (include_path='C:\Users\Alexandre\ShCommunity\framework\libraries\HTMLPurifier;.;C:\php\pear') in C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php on line 444
+[02-Apr-2020 19:27:37 America/Chicago] PHP Stack trace:
+[02-Apr-2020 19:27:37 America/Chicago] PHP   1. {main}() C:\Users\Alexandre\ShCommunity\public\index.php:0
+[02-Apr-2020 19:27:37 America/Chicago] PHP   2. App\Bootstrap->dispatch() C:\Users\Alexandre\ShCommunity\public\index.php:4
+[02-Apr-2020 19:27:37 America/Chicago] PHP   3. require_once() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:82
+[02-Apr-2020 19:27:37 America/Chicago] PHP   4. FastRoute\simpleDispatcher() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:27
+[02-Apr-2020 19:27:37 America/Chicago] PHP   5. App\Bootstrap->{closure:C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:4-27}() C:\Users\Alexandre\ShCommunity\vendor\nikic\fast-route\src\functions.php:32
+[02-Apr-2020 19:27:37 America/Chicago] PHP   6. FastRoute\RouteCollector->addGroup() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:26
+[02-Apr-2020 19:27:37 America/Chicago] PHP   7. App\Bootstrap->{closure:C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:11-26}() C:\Users\Alexandre\ShCommunity\vendor\nikic\fast-route\src\RouteCollector.php:51
+[02-Apr-2020 19:27:37 America/Chicago] PHP   8. spl_autoload_call() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:13
+[02-Apr-2020 19:27:37 America/Chicago] PHP   9. Composer\Autoload\ClassLoader->loadClass() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:13
+[02-Apr-2020 19:27:37 America/Chicago] PHP  10. Composer\Autoload\includeFile() C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php:322
+[02-Apr-2020 19:27:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:27:50 America/Chicago] PHP Warning:  include(C:\Users\Alexandre\ShCommunity\vendor\composer/../../app/classes/Utils/User.php): failed to open stream: No such file or directory in C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php on line 444
+[02-Apr-2020 19:27:50 America/Chicago] PHP Stack trace:
+[02-Apr-2020 19:27:50 America/Chicago] PHP   1. {main}() C:\Users\Alexandre\ShCommunity\public\index.php:0
+[02-Apr-2020 19:27:50 America/Chicago] PHP   2. App\Bootstrap->dispatch() C:\Users\Alexandre\ShCommunity\public\index.php:4
+[02-Apr-2020 19:27:50 America/Chicago] PHP   3. require_once() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:82
+[02-Apr-2020 19:27:50 America/Chicago] PHP   4. FastRoute\simpleDispatcher() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:27
+[02-Apr-2020 19:27:50 America/Chicago] PHP   5. App\Bootstrap->{closure:C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:4-27}() C:\Users\Alexandre\ShCommunity\vendor\nikic\fast-route\src\functions.php:32
+[02-Apr-2020 19:27:50 America/Chicago] PHP   6. FastRoute\RouteCollector->addGroup() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:26
+[02-Apr-2020 19:27:50 America/Chicago] PHP   7. App\Bootstrap->{closure:C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:11-26}() C:\Users\Alexandre\ShCommunity\vendor\nikic\fast-route\src\RouteCollector.php:51
+[02-Apr-2020 19:27:50 America/Chicago] PHP   8. spl_autoload_call() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:13
+[02-Apr-2020 19:27:50 America/Chicago] PHP   9. Composer\Autoload\ClassLoader->loadClass() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:13
+[02-Apr-2020 19:27:50 America/Chicago] PHP  10. Composer\Autoload\includeFile() C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php:322
+[02-Apr-2020 19:27:50 America/Chicago] PHP Warning:  include(): Failed opening 'C:\Users\Alexandre\ShCommunity\vendor\composer/../../app/classes/Utils/User.php' for inclusion (include_path='C:\Users\Alexandre\ShCommunity\framework\libraries\HTMLPurifier;.;C:\php\pear') in C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php on line 444
+[02-Apr-2020 19:27:50 America/Chicago] PHP Stack trace:
+[02-Apr-2020 19:27:50 America/Chicago] PHP   1. {main}() C:\Users\Alexandre\ShCommunity\public\index.php:0
+[02-Apr-2020 19:27:50 America/Chicago] PHP   2. App\Bootstrap->dispatch() C:\Users\Alexandre\ShCommunity\public\index.php:4
+[02-Apr-2020 19:27:50 America/Chicago] PHP   3. require_once() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:82
+[02-Apr-2020 19:27:50 America/Chicago] PHP   4. FastRoute\simpleDispatcher() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:27
+[02-Apr-2020 19:27:50 America/Chicago] PHP   5. App\Bootstrap->{closure:C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:4-27}() C:\Users\Alexandre\ShCommunity\vendor\nikic\fast-route\src\functions.php:32
+[02-Apr-2020 19:27:50 America/Chicago] PHP   6. FastRoute\RouteCollector->addGroup() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:26
+[02-Apr-2020 19:27:50 America/Chicago] PHP   7. App\Bootstrap->{closure:C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:11-26}() C:\Users\Alexandre\ShCommunity\vendor\nikic\fast-route\src\RouteCollector.php:51
+[02-Apr-2020 19:27:50 America/Chicago] PHP   8. spl_autoload_call() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:13
+[02-Apr-2020 19:27:50 America/Chicago] PHP   9. Composer\Autoload\ClassLoader->loadClass() C:\Users\Alexandre\ShCommunity\framework\routes\routes.php:13
+[02-Apr-2020 19:27:50 America/Chicago] PHP  10. Composer\Autoload\includeFile() C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php:322
+[02-Apr-2020 19:27:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:29:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:29:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method ArgumentCountError::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(ArgumentCountError))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:30:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:31:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:32:28 America/Chicago] PHP Warning:  include(C:\Users\Alexandre\ShCommunity\vendor\composer/../../app/classes/Sys/LogSys.php): failed to open stream: No such file or directory in C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php on line 444
+[02-Apr-2020 19:32:28 America/Chicago] PHP Stack trace:
+[02-Apr-2020 19:32:28 America/Chicago] PHP   1. {main}() C:\Users\Alexandre\ShCommunity\public\index.php:0
+[02-Apr-2020 19:32:28 America/Chicago] PHP   2. App\Bootstrap->dispatch() C:\Users\Alexandre\ShCommunity\public\index.php:4
+[02-Apr-2020 19:32:28 America/Chicago] PHP   3. App\Controllers\Home->index() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:106
+[02-Apr-2020 19:32:28 America/Chicago] PHP   4. App\Controllers\Home->view() C:\Users\Alexandre\ShCommunity\app\controllers\Home.php:12
+[02-Apr-2020 19:32:28 America/Chicago] PHP   5. Framework\Blade\BladeController->__construct() C:\Users\Alexandre\ShCommunity\framework\core\CoreController.php:17
+[02-Apr-2020 19:32:28 America/Chicago] PHP   6. spl_autoload_call() C:\Users\Alexandre\ShCommunity\framework\blade\BladeController.php:22
+[02-Apr-2020 19:32:28 America/Chicago] PHP   7. Composer\Autoload\ClassLoader->loadClass() C:\Users\Alexandre\ShCommunity\framework\blade\BladeController.php:22
+[02-Apr-2020 19:32:28 America/Chicago] PHP   8. Composer\Autoload\includeFile() C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php:322
+[02-Apr-2020 19:32:28 America/Chicago] PHP Warning:  include(): Failed opening 'C:\Users\Alexandre\ShCommunity\vendor\composer/../../app/classes/Sys/LogSys.php' for inclusion (include_path='C:\Users\Alexandre\ShCommunity\framework\libraries\HTMLPurifier;.;C:\php\pear') in C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php on line 444
+[02-Apr-2020 19:32:28 America/Chicago] PHP Stack trace:
+[02-Apr-2020 19:32:28 America/Chicago] PHP   1. {main}() C:\Users\Alexandre\ShCommunity\public\index.php:0
+[02-Apr-2020 19:32:28 America/Chicago] PHP   2. App\Bootstrap->dispatch() C:\Users\Alexandre\ShCommunity\public\index.php:4
+[02-Apr-2020 19:32:28 America/Chicago] PHP   3. App\Controllers\Home->index() C:\Users\Alexandre\ShCommunity\app\bootstrap.php:106
+[02-Apr-2020 19:32:28 America/Chicago] PHP   4. App\Controllers\Home->view() C:\Users\Alexandre\ShCommunity\app\controllers\Home.php:12
+[02-Apr-2020 19:32:28 America/Chicago] PHP   5. Framework\Blade\BladeController->__construct() C:\Users\Alexandre\ShCommunity\framework\core\CoreController.php:17
+[02-Apr-2020 19:32:28 America/Chicago] PHP   6. spl_autoload_call() C:\Users\Alexandre\ShCommunity\framework\blade\BladeController.php:22
+[02-Apr-2020 19:32:28 America/Chicago] PHP   7. Composer\Autoload\ClassLoader->loadClass() C:\Users\Alexandre\ShCommunity\framework\blade\BladeController.php:22
+[02-Apr-2020 19:32:28 America/Chicago] PHP   8. Composer\Autoload\includeFile() C:\Users\Alexandre\ShCommunity\vendor\composer\ClassLoader.php:322
+[02-Apr-2020 19:32:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
+[02-Apr-2020 19:33:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Error::getSeverity() in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php:98
+Stack trace:
+#0 [internal function]: Classes\Exception\Exception->handler(Object(Error))
+#1 {main}
+  thrown in C:\Users\Alexandre\ShCommunity\app\classes\Exception\Exception.php on line 98
