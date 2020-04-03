@@ -3,5 +3,5 @@
 @section('title', 'Home')
 @section('zone', 'CMS')
 @section('content')
-<button class="btn btn-primary">hello</button>
+@include('partials.cms.nav')
 @endsection
